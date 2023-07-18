@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Open+Sans, sans-serif;
+    font-weight: 300;
+    color: navy;
+}
+
+header {
+    height: 100px;
+    background-color: navy;
+    font-size: 130%;
+}
+
+
+.socials {
+    text-align: center;
+}
+
+.socials>li {
+    display: inline;
+}
+
+.socials i {
+    color: #ffffff;
+    font-size: 130%;
+    padding: 1%;
+}
