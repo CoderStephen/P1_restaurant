@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:ital,wght@1,300&display=swap');
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     border: none;
 }
@@ -11,24 +11,31 @@ body {
     font-weight: 300;
     color: #ffffff;
     background-color: rgb(63, 63, 63);
+    text-align: center;
 }
 
 header {
-    height: 100px;
-    background-color: rgb(63, 63, 63);
-    font-size: 150%;
+    height: 200px;
+    background-color: rgba(231, 23, 33, 0.301);
+    font-size: 300%;
 }
 
-h1 {
+h1 {   
     line-height: 50px;
     text-transform: uppercase;
-    font-size: 300%;
-    margin: ;
+    letter-spacing: 4px;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+    margin: 150px;
+}
+#rest-image {
+    height: 1500px;
+    width: 100%;
+    margin: auto;
+    background: url('../images/restaurant.jpg') no-repeat center center;
 }
 
 .socials {
@@ -40,8 +47,8 @@ a {
 }
 
 .socials i {
+    font-size: 160%;
     color: #ffffff;
-    margin-right: 100px;
+    margin: 100px;
     list-style: none;
-    float: right;
 }
