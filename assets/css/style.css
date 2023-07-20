@@ -32,6 +32,12 @@ h1, h2{
     letter-spacing: 4px;
 }
 
+h3 {
+    line-height: 100px;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
 section #web-nav {
     height: 50px;
     background-color: rgba(231, 23, 33, 0.301);
@@ -46,7 +52,6 @@ section #web-nav {
     list-style: none;
     display: inline;
     margin: 70px;
-
 }
 
 #web-nav a {
@@ -76,10 +81,16 @@ section #web-nav {
 }
 
 #about, p{
-    font-size: 150%;
+    font-size: 120%;
         text-align: left;
     }
 
+.center {
+    text-align: center;
+}
+.spacer {
+    margin-top: 100px;
+}
     
 
 
