@@ -10,13 +10,13 @@ body {
     font-family: Open+Sans, sans-serif;
     font-weight: 300;
     color: #ffffff;
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
 
 header {
     height: 200px;
-    background-color: rgba(231, 23, 33, 0.301);
+    background-color: rgba(231, 23, 33, 0.4);
     font-size: 300%;
 }
 
@@ -27,7 +27,7 @@ header a {
 }
 
 h1, h2{
-    line-height: 100px;
+    line-height: 50px;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
@@ -35,7 +35,7 @@ h1, h2{
 }
 
 h3 {
-    line-height: 100px;
+    line-height: 50px;
     text-transform: capitalize;
     letter-spacing: 2px;
 }
@@ -45,7 +45,7 @@ h3 {
 }
 section #web-nav {
     height: 50px;
-    background-color: rgba(231, 23, 33, 0.301);
+    background-color: rgba(231, 23, 33, 0.4);
 }
 #web-nav {
     letter-spacing: 4px;
@@ -74,12 +74,12 @@ section #web-nav {
 }
 
 .foreground-color {
-    margin: 0% 30%;
+    margin: 0% 25%;
     background-color: rgba(231, 23, 33, 0.301);
 }
 
 #rest-image {
-    height: 1500px;
+    height: 900px;
     width: 100%;
     background: url('../images/restaurant.jpg') no-repeat center center;
     margin: auto;
@@ -125,6 +125,7 @@ h2 {
     font-size: 200%;
 }
 
+
 .socials {
     text-align: center;
 }
@@ -141,7 +142,71 @@ h2 {
 }
 
 footer {
-    background-color: rgba(231, 23, 33, 0.301);
+    background-color: rgba(231, 23, 33, 0.4);
     height: 200px;
 
 }
+
+.reserve-form {
+    margin: 0% 30%;
+    color: #fff;
+    max-width: 300px;
+    position: relative;
+    padding: 30px;
+}
+
+.text-input {
+    color: #fafafa;
+    width: 70%;
+    height: 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    margin: 5px 0px 20px;
+}
+.numb-input {
+    color: #fafafa;
+        width: 50%;
+        height: 20px;
+        border: 1px solid #fafafa;
+        margin: 5px 0px 20px;
+        border-radius: 2px;
+}
+
+.numb-input:hover {
+    border-color: rgb(63, 63, 63);
+}
+
+.text-input:hover {
+    border-color: rgb(63, 63, 63);
+}
+
+.reserve-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px;
+    text-align: right;
+    font-size: 100%;
+    background-color: rgba(231, 23, 33, 0.4);
+    color: #fafafa;
+    display: block;
+    float: right;
+}
+
+.reserve-button:hover {
+    background-color: rgb(63, 63, 63);
+    color: rgba(231, 23, 33, 0.4;
+}
+{
+
+}
+@media screen and (max-width: 1200px)
+{}
+#web-nav{
+    margin: auto;
+}
+#menu img {
+    height: 400px;
+}
+
+
+  
